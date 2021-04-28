@@ -1,0 +1,14 @@
+.cookie-body {
+  text-align: center;
+  color: snow;
+}
+
+.cookie-closed-img {
+  cursor: pointer;
+  height: 25%;
+  width: 25%;
+}
+
+.disabled {
+  pointer-events: none;
+}
