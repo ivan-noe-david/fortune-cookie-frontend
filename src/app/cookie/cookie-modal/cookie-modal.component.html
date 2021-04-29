@@ -1,0 +1,13 @@
+<div class="modal-text">
+  {{data}}
+</div>
+<div >
+  <mat-form-field [style.width.px]=500>
+    <mat-label>Make Your Own Fortune Today!</mat-label>
+    <input matInput [(ngModel)]="userInput">
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-stroked-button (click)="onCancel()">Cancel</button>
+  <button mat-stroked-button color="primary" (click)="onSave()">Save</button>
+</div>
